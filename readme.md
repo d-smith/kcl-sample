@@ -73,3 +73,10 @@ Kinesis:
     ]
 }
 ```
+
+## Build, run, etc.
+
+```console
+./gradlew build
+env AWS_PROFILE=kclapp ./gradlew run --args="foo"
+```
