@@ -86,3 +86,9 @@ Can run the fat jar too.
 ```console
 env AWS_PROFILE=kclapp java -jar ./build/libs/kcl-sample-all.jar foo
 ```
+
+## Docker
+
+```make image
+docker run -e AWS_ACCESS_KEY_ID=kkkkk -e AWS_SECRET_ACCESS_KEY=ssss kcl-sample foo
+```
