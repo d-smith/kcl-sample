@@ -80,3 +80,9 @@ Kinesis:
 ./gradlew build
 env AWS_PROFILE=kclapp ./gradlew run --args="foo"
 ```
+
+Can run the fat jar too.
+
+```console
+env AWS_PROFILE=kclapp java -jar ./build/libs/kcl-sample-all.jar foo
+```
